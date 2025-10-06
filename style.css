@@ -1,0 +1,30 @@
+body {
+  background-color: #badfdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div {
+  background-color: #ffa4a4;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #fcf9ea;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0;
+  background-color: rgb(107, 179, 116);
+  padding: 5px;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
